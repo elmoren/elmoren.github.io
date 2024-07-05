@@ -1,8 +1,9 @@
 import { createApp } from 'vue'
-import './style.css'
 import '../node_modules/bulma/css/bulma.css'
+import '@/styles.module.scss'
+
 import App from './App.vue'
-import router from './router'
+import router from './router.ts'
 
 createApp(App)
     .use(router)
