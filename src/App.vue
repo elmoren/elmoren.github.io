@@ -1,27 +1,38 @@
 <script setup lang="ts">
+import { RouterView } from 'vue-router';
+
 
 </script>
 
 <template>
-  <nav>
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/about">About</RouterLink>
-  </nav>
-  <main>
-    <RouterView />
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://www.njelmore.com">
+        Nate Elmore
+      </a>
 
-    <section class="section">
-    <div class="container">
-      <h1 class="title">
-        Hello There
-      </h1>
-      <p class="subtitle">
-        General Kenobi
-      </p>
+      <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false" data-target="navBarId">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
     </div>
-  </section>
+
+    <div id="navBarId" class="navbar-menu">
+      <div class="navbar-start">
+        <RouterLink class="navbar-item" to="/">Home</RouterLink>
+        <RouterLink class="navbar-item" to="/about">About</RouterLink>
+      </div>
+    </div>
+
+  </nav>
+
+  <main>
+    <div class="content">
+      <RouterView />
+    </div>
   </main>
 </template>
 
-<style>
-</style>
+<style></style>
