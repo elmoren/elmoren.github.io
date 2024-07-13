@@ -5,11 +5,9 @@ import { RouterView } from 'vue-router';
 </script>
 
 <template>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav class="navbar has-shadow is-spaced" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://www.njelmore.com">
-        Nate Elmore
-      </a>
+      <RouterLink class="navbar-item" to="/">Nate Elmore</RouterLink>
 
       <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false" data-target="navBarId">
         <span aria-hidden="true"></span>
@@ -21,8 +19,11 @@ import { RouterView } from 'vue-router';
 
     <div id="navBarId" class="navbar-menu">
       <div class="navbar-start">
-        <RouterLink class="navbar-item" to="/">Home</RouterLink>
         <RouterLink class="navbar-item" to="/about">About</RouterLink>
+        <RouterLink class="navbar-item" to="/projects">Projects</RouterLink>
+        <RouterLink class="navbar-item" to="/commuterchallenge">Billings Commuter Challenge</RouterLink>
+        <RouterLink class="navbar-item" to="/cv">CV</RouterLink>
+        <RouterLink class="navbar-item" to="/leatherwork">Leatherworking</RouterLink>
       </div>
     </div>
 
