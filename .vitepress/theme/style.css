@@ -44,15 +44,20 @@
  * -------------------------------------------------------------------------- */
 
  :root {
+  --nje-blue-1: #7e99c3;
+  --nje-blue-2: #3D5A80;
+  --nje-blue-3: #5d79a1;
+  --nje-blue-soft: rgba(48, 53, 76, .55);
+
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  --vp-c-brand-1: var(--vp-c-indigo-1);
-  --vp-c-brand-2: var(--vp-c-indigo-2);
-  --vp-c-brand-3: var(--vp-c-indigo-3);
-  --vp-c-brand-soft: var(--vp-c-indigo-soft);
+  --vp-c-brand-1: var(--nje-blue-1);
+  --vp-c-brand-2: var(--nje-blue-2);
+  --vp-c-brand-3: var(--nje-blue-3);
+  --vp-c-brand-soft: var(--nje-blue-soft);
 
   --vp-c-tip-1: var(--vp-c-brand-1);
   --vp-c-tip-2: var(--vp-c-brand-2);
@@ -94,15 +99,10 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
-    #bd34fe 30%,
-    #41d1ff
+    var(--nje-blue-1),
+    var(--nje-blue-2)
   );
-
-  --vp-home-hero-image-background-image: linear-gradient(
-    -45deg,
-    #bd34fe 50%,
-    #47caff 50%
-  );
+  
   --vp-home-hero-image-filter: blur(44px);
 }
 

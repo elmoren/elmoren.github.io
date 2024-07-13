@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Nate Elmore"
-  text: "Nate Elmore - Software Engineer"
-  tagline: My great project tagline
+  text: "Software Engineer"
+  tagline: Software, Leatherworking, Bicycling
   actions:
     - theme: brand
       text: Markdown Examples
@@ -22,4 +22,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
