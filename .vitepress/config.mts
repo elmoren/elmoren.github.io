@@ -8,7 +8,10 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Billings Commuter Challenge', link: '/bilings-commuter-challenge' },
+      { text: 'Other Projects', link: '/markdown-examples' },
+      { text: 'Leatherworking', link: '/leatherworking' },
+      { text: 'CV', link: '/cv' }
     ],
 
     sidebar: [
@@ -22,7 +25,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/elmoren' },
+      { icon: 'instagram', link: 'https://www.instagram.com/birddogleather' }
     ]
   },
   outDir: './dist',
