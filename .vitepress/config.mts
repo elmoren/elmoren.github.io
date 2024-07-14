@@ -8,20 +8,19 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Billings Commuter Challenge', link: '/bilings-commuter-challenge' },
-      { text: 'Other Projects', link: '/markdown-examples' },
+      { text: 'Billings Commuter Challenge', link: '/commuter-challenge' },
       { text: 'Leatherworking', link: '/leatherworking' },
       { text: 'CV', link: '/cv' }
     ],
 
     sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+      // {
+      //   text: 'Examples',
+      //   items: [
+      //     { text: 'Markdown Examples', link: '/markdown-examples' },
+      //     { text: 'Runtime API Examples', link: '/api-examples' }
+      //   ]
+      // }
     ],
 
     socialLinks: [

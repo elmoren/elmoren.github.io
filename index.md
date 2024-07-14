@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Nate Elmore"
   text: "Software Developer"
-  tagline: Software, Leatherworking, Bicycling
+  tagline: Software, Dogs, Leatherworking, Bicycling
 ---
 
 # Welcome!
