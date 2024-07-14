@@ -6,7 +6,7 @@ title:  Billings Commuter Challenge
 
 ## How It Started
 
-The [The Billings Commuter Challenge](https://www.billingscommuterchallenge.com) is an volunteer project I built for the city of Billings. Every year, the city runs a commuter challenge to get people out and actively commuting. Users log their trips and mileage and receive discounts, rewards, and there's a fun kickoff event with food trucks, games and a commuting tour that shows off the city's [neighborhood bikeway](https://www.billingsmt.gov/3057/Neighborhood-Bikeways), trails, the [LightBike Trail](https://downtownbillings.com/explore/lightbike-trail/), and more.
+The [The Billings Commuter Challenge](https://www.billingscommuterchallenge.com) is an volunteer project I built for the city of Billings. Every year, the city runs a friendly competition to show off the cities biking, walking, and bus infrastructure. It's a family friendly and fun way to get people out and actively commuting. Users log their trips and mileage and receive incentives (such as discounts at local businesses, free ice cream), rewards, and there's a fun kickoff event with food trucks, games and a commuting tour that shows off the city's trails. Such as the awesome [neighborhood bikeway](https://www.billingsmt.gov/3057/Neighborhood-Bikeways), or the [LightBike Trail](https://downtownbillings.com/explore/lightbike-trail/).
 
 This app started during Covid with my girlfriend (now wife) who organizes the Billings Commuter Challenge. The previous website was showing its age and hadn't been maintained in a number of years. Because of this they were constantly fighting some of it's quirks and she asked if I would build them a new one. I had been wanting to wade into web development more so I said yes.
 
