@@ -1,11 +1,11 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
+title: Home
 layout: home
 
 hero:
   name: "Nate Elmore"
   text: "Software Developer"
-  tagline: Software, Dogs, Leatherworking, Bicycling
+  tagline: Software, Leatherworking, Bicycling
 ---
 
 # Welcome!
