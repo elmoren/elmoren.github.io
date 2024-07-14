@@ -80,7 +80,7 @@ Rocky Mountain College - Billings, MT \
 ## Skills
 
 #### Languages & Frameworks
-- **Proficient**: Java, JavaScript, TypeScript, Vue.js, CSS, Sass, HTML5, SQL, C, Perl
+- **Proficient**: Java, JavaScript, TypeScript, Vue.js, CSS, Sass, HTML5, SQL, C, Perl, Mercurial
 - **Familiar**: Ruby, Bash, Rails
 
 #### Databases
@@ -88,4 +88,4 @@ Rocky Mountain College - Billings, MT \
 - **Familiar**: MySQL, PostgreSQL
 
 #### Other
-- Linux, Tomcat, Docker, CI/CD, NGINX, Nagios
+- Linux, Tomcat, Docker, CI/CD, NGINX, Nagios, Mercurial, Subversion
