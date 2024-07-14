@@ -8,9 +8,9 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Billings Commuter Challenge', link: '/commuter-challenge' },
-      { text: 'Leatherworking', link: '/leatherworking' },
-      { text: 'CV', link: '/cv' }
+      { text: 'Billings Commuter Challenge', link: '/commuter-challenge/' },
+      { text: 'Leatherworking', link: '/leatherworking/' },
+      { text: 'CV', link: '/cv/' }
     ],
 
     sidebar: [
