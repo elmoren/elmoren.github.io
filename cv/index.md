@@ -88,4 +88,5 @@ Rocky Mountain College - Billings, MT \
 - **Familiar**: MySQL, PostgreSQL
 
 #### Other
-- Linux, Tomcat, Docker, CI/CD, NGINX, Nagios, Mercurial, Subversion
+- **Proficient**: Linux, Tomcat, CI/CD, Mercurial, Subversion
+- **Familiar**: Docker, Git, NGINX, Nagios
