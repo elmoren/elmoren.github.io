@@ -54,7 +54,7 @@ January 2012 to November 2020
 
 - Collaboratively worked with all aspects of system development, including requirements determination, system and software design, hardware configuration, calibration, Linux server administration, in-lab integration and testing, and field testing of the Multi-Aspect Radar System (MARS).
 - Developed, analyzed and debugged software components controlling the radar scheduling, ADC/DAC boards, Digital I/O, frequency synthesizers, Automatic Identification System (AIS), and other hardware interfaces.
-- Modified the MARS radar software and hardware to operate as a multi-channel digitizer with real time data recording and export over 10 Gb Ethernet on an airborne platform.
+- Modified the MARS radar software and hardware to operate as a multi-channel digitizer with real time data recording and export over 10 Gb Ethernet.
 - Implemented and optimized a multi-static inverse synthetic aperture radar imaging model into the MARS radar.
 - Performed system engineering tasks including requirements gathering, analysis, writing design verification tests and, factory qualification tests for the AN/SPS-73(V)18 surface search radar planned to be deployed on Navy ships.
 
