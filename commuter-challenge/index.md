@@ -14,7 +14,7 @@ Since this project started, we have 400+ commuters who have cumulatively logged 
 
 ## The Tech Stack
 
-- [Ruby](https://www.ruby-lang.org/en/) & [Ruby on Rails](https://rubyonrails.org/) - I had some friends in college who were Ruby enthusiasts and I always wanted to try it on more than just a surface level. I may have been a little late on the hype but Ruby and Rails is a proven and reliable.
+- [Ruby](https://www.ruby-lang.org/en/) & [Ruby on Rails](https://rubyonrails.org/) - I had some friends in college who were Ruby enthusiasts and I always wanted to try it on more than just a surface level. I may have been a little late on the hype but Ruby and Rails is proven and reliable.
 - [Nginx](https://nginx.org/en/) w/[Passenger](https://www.phusionpassenger.com/)
 - [Capastrano](https://capistranorb.com/) - Automated deployment with a single terminal command
 - [PostgreSQL](https://www.postgresql.org/) - My favorite free SQL based RDBMS
