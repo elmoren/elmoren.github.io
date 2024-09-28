@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
 
+import findPosts from './FindPosts'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Nate Elmore",
@@ -13,15 +15,24 @@ export default defineConfig({
       { text: 'CV', link: '/cv/' }
     ],
 
-    sidebar: [
-      // {
-      //   text: 'Examples',
-      //   items: [
-      //     { text: 'Markdown Examples', link: '/markdown-examples' },
-      //     { text: 'Runtime API Examples', link: '/api-examples' }
-      //   ]
-      // }
-    ],
+    sidebar: {
+      'commuter-challenge': [
+        {
+          text: "Commuter Challenge",
+          items: [
+            {
+              text: "How It Started",
+              link: "/commuter-challenge/",
+            },
+            {
+              text: 'Recent Posts',
+              items: findPosts('commuter-challenge/posts/')
+            }
+          ]
+        },
+
+      ]
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/elmoren' },
