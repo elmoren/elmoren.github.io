@@ -11,6 +11,7 @@ Software Developer with 10+ years of experience, in a variety of fields and tech
 ## Work Experience
 
 ### Senior Product Engineer
+
 PAI, A Brink's Company - Billings, MT \
 January 2024 to Present
 
@@ -26,6 +27,7 @@ January 2024 to Present
 ---
 
 ### Software Engineer, L2
+
 PAI, A Brink's Company - Billings, MT \
 November 2020 to December 2023
 
@@ -35,13 +37,13 @@ November 2020 to December 2023
 - Collaborate with product owners to identify requirements, design solutions, implement the software solutions and deploy them.
 - Identify opportunities to improve developer operations, production capacity, processes and implement them
 
-#### Notable Achievements:
+#### Notable Achievements
 
 - Migrated an existing product to a microservice to reduce load on monolith database. This project was an opportunity for the team to learn and identify potential issues when migrating other products to microservices.
 - Project lead developer for creating a system that enabling drop-shipping wireless devices from manufacturer to our customers. Worked closely my team, internal customers, and the vendor's development team to deliver this system. This saves our warehouse operations team from storing, scanning, configuring and shipping thousands of wireless devices each year.
 - Designed and implemented a system to automatically import, process, and represent ATM disputes that saves the company months of person-hours of work each year.
 
-#### Other responsibilities:
+#### Other responsibilities
 
 - Pair and ensemble program with other developers, perform code reviews, and mentor L1 developers
 - On call rotation for fixing issue escalation and service failures. Perform retrospectives after escalations to identify and remediate root causes of failures.
@@ -49,6 +51,7 @@ November 2020 to December 2023
 ---
 
 ### Software Engineer - Contract
+
 Shenandoah Solutions, Inc - Red Lodge, MT\
 January 2012 to November 2020
 
@@ -61,6 +64,7 @@ January 2012 to November 2020
 ---
 
 ### Software Engineer - Internship
+
 Shenandoah Solutions, Inc - Red Lodge, MT
 May 2011 to August 2011
 
@@ -80,13 +84,16 @@ Rocky Mountain College - Billings, MT \
 ## Skills
 
 #### Languages & Frameworks
+
 - **Proficient**: Java, JavaScript, TypeScript, Vue.js, Vite, CSS, Sass, HTML5, SQL, C, Perl
 - **Familiar**: Ruby, Bash, Rails, Webpack
 
 #### Databases
+
 - **Proficient**: SQL Server
 - **Familiar**: MySQL, PostgreSQL
 
 #### Other
+
 - **Proficient**: Linux, Tomcat, CI/CD, Mercurial, Subversion
 - **Familiar**: Docker, Git, NGINX, Nagios
