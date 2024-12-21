@@ -26,7 +26,7 @@ January 2024 to Present
 
 #### Notable Achievements
 
-- I led an effort to improve our front end developer experience that is going to save hours worth of time per day. I researched and created a plan to break our monolithic front end into a monorepo architecture building with Vite. This allowed our tools to give us instant feedback rather than 60 second builds when updating a single line of code. This also gives us better linting, easier testing, faster on-boarding, and and upgrade path for our legacy front end systems. This was a collaborative effort and I helped my colleagues grow by providing mentorship and opportunities to learn.
+- I led an effort to improve our front end developer experience. I researched and created a plan to break our monolithic front end into a monorepo architecture building with Vite. This allowed our tools to give us instant feedback rather than 60 second builds when updating a single line of code. This also gives us better linting, easier testing, faster on-boarding, and and upgrade path for our legacy front end systems. This was a collaborative effort and I helped my colleagues grow by providing mentorship and opportunities to learn.
 - I led a project that that integrated our system with a new wireless provider that greatly reduced monthly data usage costs. We developed tools that saved internal customers hours of time and created dashboards that provide insights for better decision making.
 
 ---
