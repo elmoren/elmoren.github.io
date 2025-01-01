@@ -6,7 +6,7 @@ title: Curriculum Vitae
 
 ## Summary
 
-Software Developer with 10+ years of experience, in a variety of fields and technologies. Focused on delivering effective, maintainable software solutions.
+A seasoned software engineer with 12 years of experience known for consistently delivering results. A proven ability to quickly adapt and produce valuable solutions with experience in both systems programming and web applications. Demonstrated commitment to creating effective, maintainable software that meets business needs.
 
 ## Work Experience
 
@@ -17,17 +17,18 @@ January 2024 to Present
 
 #### Position Overview
 
-- Lead a feature team of developers to deliver new features, maintain legacy code, DevOps, and improving the developer tooling.
-- Both mentor and learn from the feature team in software development craft, pair/ensemble programming, working with stakeholders and managing projects.
-- Conduct weekly team learning sessions in which we read and discuss books aimed at improving our technical and soft skills.
-- Full stack developer working with Java, Hibernate, SQL Server, Vue, Typescript and JavaScript
+- Lead a feature team of developers to deliver new features, maintain legacy code, perform DevOps, and improve the developer tooling.
+- Both mentor and learn from the feature team in software development craft, pair and ensemble programming, working with stakeholders and managing projects.
+- Lead a group that reviews software books, discuss conference talks, and do coding challenges to foster a culture of continual learning.
+- Full stack developer working with Java, Hibernate, SQL Server, Vue, Typescript and JavaScript.
 - Collaborate with product owners to identify requirements, design solutions, implement the software solutions and deploy them.
-- Identify opportunities to improve developer operations, production capacity, processes and implement them
+- Identify opportunities to improve developer operations, production capacity, processes and implement them.
 
 #### Notable Achievements
 
-- I led an effort to improve our front end developer experience. I researched and created a plan to break our monolithic front end into a monorepo architecture building with Vite. This allowed our tools to give us instant feedback rather than 60 second builds when updating a single line of code. This also gives us better linting, easier testing, faster on-boarding, and and upgrade path for our legacy front end systems. This was a collaborative effort and I helped my colleagues grow by providing mentorship and opportunities to learn.
-- I led a project that that integrated our system with a new wireless provider that greatly reduced monthly data usage costs. We developed tools that saved internal customers hours of time and created dashboards that provide insights for better decision making.
+- Spearheaded an effort to enhance front-end developer experience by transitioning our monolithic architecture to a Vite based monorepo structure. This results in instant feedback instead of 60-second builds, improved linting, easier testing, faster onboarding, and an upgrade path for legacy user interfaces. I collaborated with team members to provide mentorship and learning opportunities throughout the project.
+- Led a project that integrated our system with a new wireless provider that significantly reduced monthly data usage costs. My feature team developed tools that save the wireless team hours of time each week and created dashboards that provide insights for better decision making.
+- Created an Incident Retrospective process for the development team to reflect on high severity incidents. This leads to actionable plans to prevent future incidents and better responses to incidents.
 
 ---
 
@@ -55,16 +56,17 @@ November 2020 to December 2023
 
 ---
 
-### Software Engineer - Contract
+### Software Engineer
 
 Shenandoah Solutions, Inc - Red Lodge, MT\
 January 2012 to November 2020
 
-- Collaboratively worked with all aspects of system development, including requirements determination, system and software design, hardware configuration, calibration, Linux server administration, in-lab integration and testing, and field testing of the Multi-Aspect Radar System (MARS).
-- Developed, analyzed and debugged software components controlling the radar scheduling, ADC/DAC boards, Digital I/O, frequency synthesizers, Automatic Identification System (AIS), and other hardware interfaces.
-- Modified the MARS radar software and hardware to operate as a multi-channel digitizer with real time data recording and export over 10 Gb Ethernet.
-- Implemented and optimized a multi-static inverse synthetic aperture radar imaging model into the MARS radar.
-- Performed system engineering tasks including requirements gathering, analysis, writing design verification tests and, factory qualification tests for the AN/SPS-73(V)18 surface search radar planned to be deployed on Navy ships.
+- Collaboratively built a Multi-Aspect Radar System (MARS) with a small team of engineers working on all aspects of system development, including requirements determination, system and software design, hardware configuration, calibration, Linux server administration, in-lab integration and testing, and field testing.
+- Developed, tested, and debugged software components for the following: radar scheduling, ADC/DAC boards, Digital I/O, frequency synthesizers, Automatic Identification System (AIS), and other hardware interfaces.
+- Modified the MARS software and hardware to operate as a multi-channel digitizer with real time data recording and export over 10 Gb Ethernet on an airborne platform (ADAS).
+- Implemented DISA Security Technical Implementation Guides (STIGs) for the MARS and ADAS Red Hat operating systems.
+- Wrote hardware and software specification documents for the AN/SPS-73(V)18 surface search radar.
+- Performed requirements analysis, wrote design verification tests and factory qualification tests for the AN/SPS-73(V)18 surface search radar.
 
 ---
 
