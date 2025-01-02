@@ -13,7 +13,7 @@ export default defineConfig({
       { text: 'Billings Commuter Challenge', link: '/commuter-challenge/' },
       { text: 'Leatherworking', link: '/leatherworking/' },
       { text: 'CV', link: '/cv/' },
-      { text: 'Résumé (PDF)', link: '/cv/NathanElmoreResume.pdf' }
+      { text: 'Résumé (PDF)', link: '/NathanElmoreResume.pdf' }
     ],
 
     sidebar: {
