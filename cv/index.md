@@ -10,55 +10,47 @@ A seasoned software engineer with 12 years of experience known for consistently 
 
 ## Work Experience
 
-### Senior Product Engineer
+### PAI, A Brink's Company
 
-PAI, A Brink's Company - Billings, MT \
-January 2024 to Present
+November 2020 to Present \
+Billings, MT
 
-#### Position Overview
+#### Senior Product Engineer
 
-- Lead a feature team of developers to deliver new features, maintain legacy code, perform DevOps, and improve the developer tooling.
-- Both mentor and learn from the feature team in software development craft, pair and ensemble programming, working with stakeholders and managing projects.
-- Lead a group that reviews software books, discuss conference talks, and do coding challenges to foster a culture of continual learning.
-- Full stack developer working with Java, Hibernate, SQL Server, Vue, Typescript and JavaScript.
-- Collaborate with product owners to identify requirements, design solutions, implement the software solutions and deploy them.
-- Identify opportunities to improve developer operations, production capacity, processes and implement them.
+January 2023 to Present
 
-#### Notable Achievements
-
+- Lead a feature team that delivers new features and products, maintains legacy code, performs DevOps, and improves the developer tooling for a network of over 100,000 ATMs nationwide.
 - Spearheaded an effort to enhance front-end developer experience by transitioning our monolithic architecture to a Vite based monorepo structure. This results in instant feedback instead of 60-second builds, improved linting, easier testing, faster onboarding, and an upgrade path for legacy user interfaces. I collaborated with team members to provide mentorship and learning opportunities throughout the project.
 - Led a project that integrated our system with a new wireless provider that significantly reduced monthly data usage costs. My feature team developed tools that save the wireless team hours of time each week and created dashboards that provide insights for better decision making.
 - Created an Incident Retrospective process for the development team to reflect on high severity incidents. This leads to actionable plans to prevent future incidents and better responses to incidents.
-
+- Integrated our end of month billing processes with Avalara to conditionally calculate tax of billing items as configured by the finance team, saving them hours of work monthly.
+- Foster a culture of continual learning by leading learning sessions that review software books, discuss conference talks, and do coding challenges.
+- Both mentor and learn from my feature team with pair and ensemble programming, working with stakeholders and managing projects.
+- Java | JavaScript | TypeScript | Vue | Vite | T-SQL | SQLServer | Tomcat | Docker | Linux | Git
 ---
 
-### Software Engineer, L2
+#### Software Engineer, L2
 
-PAI, A Brink's Company - Billings, MT \
 November 2020 to December 2023
 
-#### Position Overview
-
-- Full stack developer primarily working with Java, Hibernate, SQL Server, Vue, Typescript and JavaScript
-- Collaborate with product owners to identify requirements, design solutions, implement the software solutions and deploy them.
-- Identify opportunities to improve developer operations, production capacity, processes and implement them
-
-#### Notable Achievements
-
-- Migrated an existing product to a microservice to reduce load on monolith database. This project was an opportunity for the team to learn and identify potential issues when migrating other products to microservices.
-- Project lead developer for creating a system that enabling drop-shipping wireless devices from manufacturer to our customers. Worked closely my team, internal customers, and the vendor's development team to deliver this system. This saves our warehouse operations team from storing, scanning, configuring and shipping thousands of wireless devices each year.
-- Designed and implemented a system to automatically import, process, and represent ATM disputes that saves the company months of person-hours of work each year.
-
-#### Other responsibilities
-
-- Pair and ensemble program with other developers, perform code reviews, and mentor L1 developers
-- On call rotation for fixing issue escalation and service failures. Perform retrospectives after escalations to identify and remediate root causes of failures.
+- Collaborate with project stakeholders to identify requirements, design solutions, create new products or integrate them into existing products.
+- Created a wireless inventory management system that facilitates every step in the inventory process from the initial purchase order to drop shipping to PAI customers. The wireless team can purchase wireless inventory from the manufacturer in China, and track its status as it is produced, shipped, activated and shelved in warehouse ready for sale. It automatically integrates with our ERP and web store so that the inventory is tracked and is drop shipped when purchased. This saves our warehouse operations team from storing, scanning, configuring and shipping thousands of wireless devices each year.
+- Designed and implemented a system to automatically import, process, and resolve ATM disputes. This saves the company months of person-hours of work each year, tens of thousands of dollars in technician dispatches and unresolved disputes each month.
+- Created an ETL Pipeline in Java that simplified and standardized a process for creating new file based data feeds. These tools significantly reduce development time for new data feeds, and simplify operations and deployment.
+- Developed a feature that prevents thousands of technician dispatches to ATMs and technical support calls yearly calls by remotely configuring ATMs and automatically identifying and repairing misconfigurations.
+- Freed hundreds of GB of storage on our primary SQL Server production database with an automated process for archiving old transaction data that needs to be stored for compliance.
+- Reduced support ticket calls and manual data entry with a reporting tools and a service that tracks issued checks and imports them into our ERP system.
+- Java | JavaScript | TypeScript | Vue | T-SQL | SQLServer | Tomcat | Docker | Linux | Mercurial
 
 ---
 
-### Software Engineer
+### Shenandoah Solutions, Inc
 
-Shenandoah Solutions, Inc - Red Lodge, MT\
+Red Lodge, MT\
+January 2012 to November 2020
+
+#### Software Engineer
+
 January 2012 to November 2020
 
 - Collaboratively built a Multi-Aspect Radar System (MARS) with a small team of engineers working on all aspects of system development, including requirements determination, system and software design, hardware configuration, calibration, Linux server administration, in-lab integration and testing, and field testing.
@@ -70,9 +62,8 @@ January 2012 to November 2020
 
 ---
 
-### Software Engineer - Internship
+#### Software Engineer - Internship
 
-Shenandoah Solutions, Inc - Red Lodge, MT
 May 2011 to August 2011
 
 - Developed a prototype GIS web application for displaying and searching real estate information using Linux, Apache, PostgreSQL, PHP, GeoServer and OpenLayers.
