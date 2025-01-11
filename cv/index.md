@@ -33,11 +33,11 @@ January 2023 to Present
 
 November 2020 to December 2023
 
-- Collaborate with project stakeholders to identify requirements, design solutions, create new products or integrate them into existing products.
+- Collaborated with project stakeholders to identify requirements, design solutions, create new products or integrate them into existing products.
 - Created a wireless inventory management system that facilitates every step in the inventory process from the initial purchase order to drop shipping to PAI customers. The wireless team can purchase wireless inventory from the manufacturer in China, and track its status as it is produced, shipped, activated and shelved in warehouse ready for sale. It automatically integrates with our ERP and web store so that the inventory is tracked and is drop shipped when purchased. This saves our warehouse operations team from storing, scanning, configuring and shipping thousands of wireless devices each year.
 - Designed and implemented a system to automatically import, process, and resolve ATM disputes. This saves the company months of person-hours of work each year, tens of thousands of dollars in technician dispatches and unresolved disputes each month.
 - Created an ETL Pipeline in Java that simplified and standardized a process for creating new file based data feeds. These tools significantly reduce development time for new data feeds, and simplify operations and deployment.
-- Developed a feature that prevents thousands of technician dispatches to ATMs and technical support calls yearly calls by remotely configuring ATMs and automatically identifying and repairing misconfigurations.
+- Developed a feature that prevents thousands of technician dispatches to ATMs and technical support calls yearly by remotely configuring ATMs and automatically identifying and repairing misconfigurations.
 - Freed hundreds of GB of storage on our primary SQL Server production database with an automated process for archiving old transaction data that needs to be stored for compliance.
 - Reduced support ticket calls and manual data entry with a reporting tools and a service that tracks issued checks and imports them into our ERP system.
 - Java | JavaScript | TypeScript | Vue | T-SQL | SQLServer | Tomcat | Docker | Linux | Mercurial
