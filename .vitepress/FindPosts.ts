@@ -5,8 +5,14 @@ const isFile = fileName => {
   return fs.lstatSync(fileName).isFile();
 };
 
+export interface Post {
+    date: string,
+    text: string,
+    path: string,
+    link: string
+}
 
-export default function findPosts(folderpath: string): any[] {
+export default function findPosts(folderpath: string): Post[] {
     return fs
         .readdirSync(folderpath)
         .map(fileName => {

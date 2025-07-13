@@ -11,11 +11,27 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Billings Commuter Challenge', link: '/commuter-challenge/' },
+      { text: 'Posts', link: '/posts/' },
       { text: 'Leatherworking', link: '/leatherworking/' },
       { text: 'Résumé', link: '/resume/' },
     ],
 
     sidebar: {
+      'posts': [
+        {
+          text: 'Posts',
+          items: [
+            {
+              text: "Post List",
+              link: "/posts/",
+            },
+            {
+              text: 'Recent Posts',
+              items: findPosts('posts/posts/')
+            }
+          ]
+        },
+      ],
       'commuter-challenge': [
         {
           text: "Commuter Challenge",
