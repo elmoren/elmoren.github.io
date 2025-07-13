@@ -69,7 +69,7 @@ I don't blame the tool, my prompts were often ambiguous and it's a little more c
 
 The breakthrough came when I gave Gemini more constraints. I simplified the problem limiting the maximum number of rows and columns it supports. Gemini found the right combination of CSS and JavaScript that dynamically calculated the number of bookmarks per page. I manually adjusted the calculation so that it wouldn't have empty grid cells on multi-page use cases and tweaked some css.
 
-You can new adjust the size of the browser window and it recalculates the number of bookmarks per page, adding or reducing columns based on the space available. Overall I'm happy with it as a proof of concept. Here's the results in desktop and mobile:
+You can now adjust the size of the browser window and it recalculates the number of bookmarks per page, adding or reducing columns based on the space available. Overall I'm happy with it as a proof of concept. Here's the results in desktop and mobile:
 
 ![Desktop](/public/posts/gemini/final.png "Final result in desktop")
 ![Mobile](/public/posts/gemini/mobile.png "Final result in mobile")
