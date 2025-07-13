@@ -27,5 +27,4 @@ After some copying pasting resources into their new template files, I specified 
 where needed, and referenced the outputs with`!ImportValue` in the other templates. With only minimal issues, it was
 up and running.
 
-I still need to set up an S3 Bucket and CloudFront before I switch to bootstrapping the Rails deployments. 
-However, with the commuter challenge coming up in June it may be some time before I get to it.
+I still need to set up an S3 Bucket and CloudFront before I switch to bootstrapping the Rails deployments. However, with the commuter challenge coming up in June it may be some time before I get to it.
