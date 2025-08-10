@@ -27,7 +27,7 @@ The setup is pretty straight forward. I created an S3 bucket and allowed public 
 
 Next I uploaded a handsome picture of Wilbur and verified I could access it publicly.
 
-[![CSA](/public/wilbur.jpg){style="width: 70%; display: block; margin: 0 auto}](https://cp.certmetrics.com/amazon/en/public/verify/credential/f9810ebde2dc4658a879811c72879db5)
+![CSA](/public/wilbur.jpg){style="width: 70%; display: block; margin: 0 auto}
 
 So far so good. Next I hopped over to CloudFront and went through the steps to create a new distribution with an S3 origin. I purposely unchecked `Allow private S3 bucket access to CloudFront` so I could set up the OAC manually. Once the distribution was ready, I copied the distribution name and verified I could access the image through CloudFront.
 
