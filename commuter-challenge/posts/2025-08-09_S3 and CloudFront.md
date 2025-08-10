@@ -4,7 +4,7 @@ title: S3, CloudFront and OAC
 
 # {{ $frontmatter.title }}
 
-Today I have a short post describing setup for an S3 bucket and CloudFront distribution for serving the Commuter Challenge user's profile photos.
+Today I have a short post describing setup for an S3 bucket and CloudFront distribution for serving the Commuter Challenge user profile photos.
 
 ## S3 and CloudFront
 
