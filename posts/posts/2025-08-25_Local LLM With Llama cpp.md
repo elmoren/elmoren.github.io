@@ -4,9 +4,9 @@ title: Speeding It Up With llama.cpp
 
 # {{ $frontmatter.title }}
 
-For Part 2, I'm looking at running Qwen 3 with [lama.cpp](https://github.com/ggml-org/llama.cpp). You can find [Part 1](./2025-08-14_Local%20LLM%20With%20Ollama.md) here.
+For Part 2, I'm looking at running Qwen 3 with [llama.cpp](https://github.com/ggml-org/llama.cpp). You can find [Part 1](./2025-08-14_Local%20LLM%20With%20Ollama.md) here.
 
-I'm trying out the new model and llama.cpp should give a sizeable boost in performance over Ollama. It is implemented in C/C++ and according to their docs, "Apple silicon is a first-class citizen".
+I'm trying out the new model and llama.cpp should give a sizable boost in performance over Ollama. It is implemented in C/C++ and according to their docs, "Apple silicon is a first-class citizen".
 
 I am running on a MacBook Pro with a M3 Max and 36GB of memory.
 
@@ -44,7 +44,7 @@ I forgot how difficult this game is! This was a fun little test, but now let's g
 
 ### Back to the Quiz
 
-So my next goal for the Hiragana Quiz is to give the user some results. I want an overall score of correct answer on the first guess and perhaps table showing the number of failed guesses so the user can see what they need to study most.
+So my next goal for the Hiragana Quiz is to give the user some results. I want an overall score of correct answers on the first guess and perhaps a table showing the number of failed guesses so the user can see what they need to study most.
 
 This first attempt went poorly. I think my initial prompt asked for too much with too few specifics and it was all downhill from there. It felt like I was fighting the LLM at every prompt. It was suggesting overly complex code for simple tasks that didn't work and it kept coming back to the same bad ideas. It did make a score screen and a table of guesses. However the score calculations were buggy and it overcomplicated things.
 
@@ -80,14 +80,14 @@ With that, I decided it was time to call it a night. Not bad really. And it's ki
 - Just like Gemini, it creates numerous drive-by edits of CSS that had little to do with the task at hand.
 - Also like Gemini, it copied CSS classes and added a new name instead of reusing the existing one.
 - It pulled colors out of the air instead of the predefined ones and would duplicate CSS, even after I told it to use the colors already defined.
-- It was having trouble with Vue, it kept removing `ref()` initializations on variables that need reactivity. It eventually learned, though.
+- It was having trouble with Vue; it kept removing `ref()` initializations on variables that need reactivity. It eventually learned, though.
 - I'm still failing to get `continue.dev` to use tools properly to run tests or install a package.
 - Qwen wanted to delete previously implemented features (question order randomization, for example).
 - It created plenty of little annoying bugs like adding `display: none` to a new CSS class. 
 
 ### In Conclusion
 
-Overall this was a mild success. Running `llama.cpp` was a huge improvement but this model just wasn't generating satisfactory results as an agent. And it's working on essentially a blank canvas. I would have finished it faster myself by using Qwen as an autocomplete. Perhaps that is to be expected. I'm still running a small, quantized models. While the speed boost is great, the model left a lot to be desired.
+Overall this was a mild success. Running `llama.cpp` was a huge improvement but this model just wasn't generating satisfactory results as an agent. And it's working on essentially a blank canvas. I would have finished it faster myself by using Qwen as an autocomplete. Perhaps that is to be expected. I'm still running a small, quantized model. While the speed boost is great, the model left a lot to be desired.
 
 While impressive, as it stands I'll be sticking to other tools for now. It did fine in some tasks but I don't feel like it provided enough value.
 
