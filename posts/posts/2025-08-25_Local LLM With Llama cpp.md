@@ -87,7 +87,7 @@ With that, I decided it was time to call it a night. Not bad really. And it's ki
 
 ### In Conclusion
 
-Overall this was a mild success. Running `llama.cpp` was a huge improvement but this model just wasn't generating satisfactory results as an agent. And it's working on essentially a blank canvas. I would have written finished it faster typing it myself and using it as an autocomplete. Perhaps that is to be expected. I'm still running a small, quantized models. While the speed boost is great, the model left a lot to be desired.
+Overall this was a mild success. Running `llama.cpp` was a huge improvement but this model just wasn't generating satisfactory results as an agent. And it's working on essentially a blank canvas. I would have finished it faster myself and using Qwen as an autocomplete. Perhaps that is to be expected. I'm still running a small, quantized models. While the speed boost is great, the model left a lot to be desired.
 
 While impressive, as it stands I'll be sticking to other tools for now. It did fine in some tasks but I don't feel like it provided enough value.
 
