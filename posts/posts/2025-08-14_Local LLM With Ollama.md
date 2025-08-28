@@ -95,7 +95,6 @@ Continue reported this model wasn't capable of being used as an agent. It was on
 
 - It occasionally bugs out and the only thing it output was JSON. I'm not sure which component was the culprit (I suspect Continue) but restarting everything reset it.
 - I could not get it to automatically run tools. For example, running commands to create a new Vue project or install eslint. It just output JSON containing the commands.
-- I think I'm missing something in the Continue.dev configuration to give the model context. It worked well when I gave the prompts file contexts via the `@File`.
 - It was so verbose when generating code. It wrote paragraphs upon paragraphs of explanation for simple code and I constantly told it to only use 1 sentence to explain the code.
 - It was painfully slow compared to Gemini, but that's to be expected with the hardware I'm using.
 
@@ -108,3 +107,5 @@ Continue reported this model wasn't capable of being used as an agent. It was on
 Next I'll get it working with llama.cpp and models built with [MLX](https://opensource.apple.com/projects/mlx/) to see if I have better luck.
 
 I would love you hear your experiences with running Local LLMs, Qwen and/or Continue. Shoot me an email with your experiences or if you have any thoughts!
+
+Next: [Part 2](./2025-08-25_Local%20LLM%20With%20llama.cpp.md)

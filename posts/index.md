@@ -6,7 +6,8 @@ title:  Posts
 
 ### Local LLMs
 
-1. 08/14/2025 - [Local LLMs WIth Ollama](posts/2025-08-14_Local%20LLM%20With%20Ollama.md)
+1. 08/14/2025 - [Local LLMs with Ollama](posts/2025-08-14_Local%20LLM%20With%20Ollama.md)
+2. 08/25/2025 - [Local LLM with llama.cpp](posts/2025-08-25_Local%20LLM%20With%20llama.cpp.md)
 
 ### Gemini
 
