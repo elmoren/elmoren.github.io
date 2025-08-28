@@ -108,4 +108,4 @@ Next I'll get it working with llama.cpp and models built with [MLX](https://open
 
 I would love you hear your experiences with running Local LLMs, Qwen and/or Continue. Shoot me an email with your experiences or if you have any thoughts!
 
-Next: [Part 2](./2025-08-25_Local%20LLM%20With%20llama.cpp.md)
+Next: [Part 2](./2025-08-25_Local%20LLM%20With%20Llama%20cpp.md)
