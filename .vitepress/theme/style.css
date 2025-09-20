@@ -44,10 +44,10 @@
  * -------------------------------------------------------------------------- */
 
  :root {
-  --nje-blue-1: #7e99c3;
-  --nje-blue-2: #3D5A80;
+  --nje-blue-1: #6384b7;
+  --nje-blue-2: #3a557d;
   --nje-blue-3: #5d79a1;
-  --nje-blue-soft: rgba(159, 186, 230, 0.17);
+  --nje-blue-soft: rgba(99, 132, 183, 0.17);
 
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
