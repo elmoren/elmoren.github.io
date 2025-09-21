@@ -165,4 +165,4 @@ And if you request nonexistent resource, it should return the rails 404 page...
 
 With that, the EC2 is hosting the simple rails app, and it's accessible over the open internet with the ALB DNS host. This turned out to more work than expected. I wasn't expecting the EC2 to just crash and lock up when running the bundle install. And all the little issues eat up the time. I'm satisfied with the result and feel like I know a lot more about the work I'll need to do with the full Commuter Challenge app.
 
-For the last step, I want to configure CodeDeploy to see how to deploy code changes. 
+For the Part 3, I want to configure CodeDeploy to see how to deploy code changes. 
