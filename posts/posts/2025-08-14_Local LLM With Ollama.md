@@ -1,5 +1,8 @@
 ---
 title: Running an AI Agent Locally?
+group: Local LLMs
+date: 2025-08-14
+---
 ---
 
 # {{ $frontmatter.title }}

@@ -1,5 +1,8 @@
 ---
 title: S3, CloudFront and OAC
+group: Billings Commuter Challenge
+date: 2025-08-09
+---
 ---
 
 # {{ $frontmatter.title }}

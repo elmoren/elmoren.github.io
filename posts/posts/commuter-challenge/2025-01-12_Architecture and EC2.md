@@ -1,5 +1,8 @@
 ---
 title: Architecture and EC2
+group: Billings Commuter Challenge
+date: 2025-01-12
+---
 ---
 
 # {{ $frontmatter.title }}

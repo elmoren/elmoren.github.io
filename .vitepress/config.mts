@@ -42,7 +42,7 @@ export default defineConfig({
             },
             {
               text: 'Recent Posts',
-              items: findPosts('commuter-challenge/posts/')
+              items: findPosts('posts/posts/commuter-challenge')
             }
           ]
         },

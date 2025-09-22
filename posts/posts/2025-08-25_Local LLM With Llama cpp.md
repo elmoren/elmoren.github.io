@@ -1,5 +1,8 @@
 ---
 title: Speeding It Up With llama.cpp
+group: Local LLMs
+date: 2025-08-25
+---
 ---
 
 # {{ $frontmatter.title }}

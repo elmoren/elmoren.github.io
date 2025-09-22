@@ -2,14 +2,30 @@
 title:  Posts
 ---
 
+<script setup lang="ts">
+import { data as posts } from '/.vitepress/posts.data.ts'
+
+const grouped = new Map();
+posts.forEach((item) => {
+     const key = item.group || "Posts";
+     const collection = grouped.get(key);
+     if (!collection) {
+         grouped.set(key, [item]);
+     } else {
+         collection.push(item);
+     }
+});
+
+</script>
+
 # {{ $frontmatter.title }}
 
-### Local LLMs
+<template v-for="(group) in new Map([...grouped].sort()).keys()">
 
-1. 08/14/2025 - [Local LLMs with Ollama](posts/2025-08-14_Local%20LLM%20With%20Ollama.md)
-2. 08/25/2025 - [Local LLM with llama.cpp](posts/2025-08-25_Local%20LLM%20With%20Llama%20cpp.md)
-
-### Gemini
-
-1. 07/12/2025 - [Agent Coding with Gemini](posts/2025-07-12_Coding%20With%20Gemini.md)
-2. 07/14/2025 - [Pairing with Gemini, Part 2](posts/2025-07-14_Bookmarks%20Part%202.md)
+### {{ group }}
+<ol>
+    <li v-for="(post, i) in grouped.get(group)">
+        {{ post?.formattedDate }} - <a :href="post.url">{{ post.title }}</a>
+    </li>
+</ol>
+</template>

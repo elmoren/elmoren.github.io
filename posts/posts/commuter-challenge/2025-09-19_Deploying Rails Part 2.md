@@ -1,7 +1,9 @@
 ---
 title: Deploying Rails to EC2, Part 2
+group: Billings Commuter Challenge
+date: 2025-09-19
 ---
-
+---
 # {{ $frontmatter.title }}
 
 This is Part 2 of the Deploying Rails to EC2 series. If you haven't yet, I recommend you start at [Part 1](2025-09-13_Deploying%20Rails%20Part%201.md). In Part 1, I set up nginx, passenger, and an ALB to serve the default nginx installation page. The goal of today's post is to configure our webserver to host a default Rails application. I'll deploy with Rails 7.1 and Ruby 3.x.
@@ -165,4 +167,4 @@ And if you request nonexistent resource, it should return the rails 404 page...
 
 With that, the EC2 is hosting the simple rails app, and it's accessible over the open internet with the ALB DNS host. This turned out to more work than expected. I wasn't expecting the EC2 to just crash and lock up when running the bundle install. And all the little issues eat up the time. I'm satisfied with the result and feel like I know a lot more about the work I'll need to do with the full Commuter Challenge app.
 
-For the Part 3, I want to configure CodeDeploy to see how to deploy code changes. 
+For the Part 3, I want to configure CodeDeploy to see how to deploy code changes.

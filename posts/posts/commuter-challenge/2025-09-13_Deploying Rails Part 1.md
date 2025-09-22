@@ -1,5 +1,8 @@
 ---
 title: Deploying Rails to EC2, Part 1
+group: Billings Commuter Challenge
+date: 2025-09-13
+---
 ---
 
 # {{ $frontmatter.title }}
