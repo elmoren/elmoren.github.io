@@ -11,7 +11,7 @@ It's been too long while since I worked on this, and I'm excited to be back. It 
 
 ## Updating The Commuter Challenge
 
-The Commuter Challenge was 6 years out of date with minimal updates in that time. So I figured I should knock out some updates before continuing. This was tedious, to say the least. There was one major ruby version upgrade, 4 major version upgrades to Rails. I also migrated from Turbolinks, UJS and Webpacker to Hotwire, and Vite. 
+The Commuter Challenge was 6 years out of date with minimal updates in that time. So I figured I should knock out some updates before continuing. This was tedious, to say the least. There was one major ruby version upgrade, 4 major version upgrades to Rails, and I also migrated from Turbolinks, UJS and Webpacker to Hotwire, and Vite. 
 
 I won't bore you will all the details but will say that Rails has well documented guides for upgrading.
 
@@ -19,9 +19,9 @@ I won't bore you will all the details but will say that Rails has well documente
 
 ### Docker
 
-With that out the way, let's try Docker. I'm considering deploying this on ECS rather than an EC2 instance. I think this will be easier to deploy and manage the Commuter Challenge over time. And hopefully, it won't add much cost.
+With that out the way, let's try Docker. I'm considering deploying the Commuter Challenge on ECS rather than an EC2 instance. I think this will be easier to deploy and manage the Commuter Challenge over time. And hopefully, it won't add much cost.
 
-The first step was to get Docker running locally and running a container. There's a handy gem [dockerfile-rails](https://github.com/fly-apps/dockerfile-rails), that can help you kickstart by generating a Dockerfile for you. This helped get started, and then I made some changes to get it working with the Commuter Challenge.
+The first step was to get Docker running locally and running a container. There's a handy gem [dockerfile-rails](https://github.com/fly-apps/dockerfile-rails), that can help you kickstart it by generating a Dockerfile for you. This helped me get started, and then I had to make a few changes to get it working with the Commuter Challenge.
 
 I also updated the config so rails could connect to the Postgres database running on the local machine in development mode whether it's running in a container or locally. 
 
@@ -29,7 +29,7 @@ I also updated the config so rails could connect to the Postgres database runnin
 ## database.yml, in the development section
 
 # Use the APP_DB_HOST env or localhost to connect as the postgres host.
-# The Dockerfile.dev  will set APP_DB_HOST=host.docker.internal
+# The Dockerfile.dev will set APP_DB_HOST=host.docker.internal
 host: <%= ENV.fetch('APP_DB_HOST', 'localhost') %>
 ```
 
