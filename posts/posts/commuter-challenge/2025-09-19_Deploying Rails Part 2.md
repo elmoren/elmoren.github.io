@@ -1,12 +1,12 @@
 ---
-title: Deploying Rails to EC2, Part 2
+title: Deploying Rails to AWS, Part 2
 group: Billings Commuter Challenge
 date: 2025-09-19
 ---
----
+
 # {{ $frontmatter.title }}
 
-This is Part 2 of the Deploying Rails to EC2 series. If you haven't yet, I recommend you start at [Part 1](2025-09-13_Deploying%20Rails%20Part%201.md). In Part 1, I set up nginx, passenger, and an ALB to serve the default nginx installation page. The goal of today's post is to configure our webserver to host a default Rails application. I'll deploy with Rails 7.1 and Ruby 3.x.
+This is Part 2 of the Deploying Rails to AWS series. If you haven't yet, I recommend you start at [Part 1](2025-09-13_Deploying%20Rails%20Part%201.md). In Part 1, I set up nginx, passenger, and an ALB to serve the default nginx installation page. The goal of today's post is to configure our webserver to host a default Rails application. I'll deploy with Rails 7.1 and Ruby 3.x.
 
 This took a bit longer and was a more frustrating than I hoped. I ran into issues that required various levels of digging at each step. I did this for the Commuter Challenge on Digital Ocean five years ago, and forgot quite a bit since then.
 

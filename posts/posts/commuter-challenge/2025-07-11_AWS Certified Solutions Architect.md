@@ -3,7 +3,6 @@ title: AWS Certified Solutions Architect Associate
 group: Billings Commuter Challenge
 date: 2025-07-11
 ---
----
 
 # {{ $frontmatter.title }}
 

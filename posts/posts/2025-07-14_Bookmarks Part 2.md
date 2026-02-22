@@ -3,7 +3,6 @@ title: Pairing With Gemini Part 2 - Folders and Edge Cases
 group: Pairing With Gemini
 date: 2025-07-14
 ---
----
 
 # {{ $frontmatter.title }}
 

@@ -1,13 +1,12 @@
 ---
-title: Deploying Rails to EC2, Part 1
+title: Deploying Rails to AWS, Part 1
 group: Billings Commuter Challenge
 date: 2025-09-13
----
 ---
 
 # {{ $frontmatter.title }}
 
-Today I am finally getting back to deploying the Commuter Challenge Rails app in EC2.
+Today I am finally getting back to deploying the Commuter Challenge Rails app in AWS.
 
 ## Goals
 

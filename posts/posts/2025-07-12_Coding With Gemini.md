@@ -3,7 +3,6 @@ title: I Paired with Gemini and This is What I Learned
 group: Pairing With Gemini
 date: 2025-07-12
 ---
----
 
 # {{ $frontmatter.title }}
 

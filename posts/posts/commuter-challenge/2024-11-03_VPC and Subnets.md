@@ -3,7 +3,6 @@ title: VPC and Subnets
 group: Billings Commuter Challenge
 date: 2024-11-03
 ---
----
 
 # {{ $frontmatter.title }}
 
