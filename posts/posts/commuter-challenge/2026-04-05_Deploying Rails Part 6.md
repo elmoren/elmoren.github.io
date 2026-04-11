@@ -11,9 +11,21 @@ This will be last post of the **Deploying Rails to AWS** series to migrate the B
 
 ## The Last Few Steps
 
-### DB Migration
+### New Instance
 
-The database migration took the most time, mostly because I wasn't sure how to restore the dump to a containerized database. I used scp to copy the dump to the EC2 instance and ran a docker exec.
+I started with a fresh EC2 instance and attached an elastic IP and IAM role. I updated the IP in the configuration and ran `kamal setup`. This installed Docker, but it was missing some permissions to complete. I then added the user to the docker group, ran the setup again, created the DB and ran the migrations. 
+
+```shell
+kamal setup
+kamal app exec --primary -i 'bin/rails db:create'
+kamal app exec --primary -i 'bin/rails db:migrate'
+```
+
+This all took less than ten minutes for a new server and running application. Awesome!
+
+### Data Migration
+
+The data migration took the most time, mostly because I wasn't sure how to restore the dump to a containerized database. I used scp to copy the dump to the EC2 instance and ran a docker exec.
 
 ```bash
 cat db_dump.dump | docker exec -i 8cfecabd6a25 pg_restore -d commuterchallenge_production
@@ -41,4 +53,4 @@ Over this series, I explored building a full-fledged application in AWS with a t
 
 Yes, this took a long time and I thought about starting with Kamal. The size and usage of Billings Commuter Challenge just doesn't justify a HA architecture. I used it as opportunity to design and learn how do it. This was a fun way to dig into it and learn.
 
-I have a few ideas where to go next. I want to continue improving coding with AI tools. I also have some ideas on for a small app with API Gateway, Dynamo DB, and Lambdas.
+I have a few ideas where to go next. First, I should set up regular database backups. I want to continue improving coding with AI tools and I also have some ideas on for a small app with API Gateway, Dynamo DB, and Lambdas.
