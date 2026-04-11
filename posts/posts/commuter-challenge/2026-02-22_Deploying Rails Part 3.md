@@ -5,7 +5,7 @@ date: 2026-02-22
 ---
 # {{ $frontmatter.title }}
 
-This is Part 3 of the Deploying Rails to AWS series. Here are [Part 1](2025-09-13_Deploying%20Rails%20Part%201.md) and [Part 2](2025-09-19_Deploying%20Rails%20Part%202.md). Previously, I thought I would be working with CodeDeploy, but I think I'll first update the Commuter Challenge. It's years out of date.
+This is Part 3 of the Deploying Rails to AWS series. Here is [Part 1](2025-09-13_Deploying%20Rails%20Part%201.md) and [Part 2](2025-09-19_Deploying%20Rails%20Part%202.md). Previously, I thought I would be working with CodeDeploy, but I think I'll first update the Commuter Challenge. It's years out of date.
 
 It's been too long while since I worked on this, and I'm excited to be back. It was a busy end to 2025 with a trip to Europe, home upgrades and a busy holiday season on Etsy. Then I was learning [Gleam](https://gleam.run) and doing the [Advent of Code](https://adventofcode.com). The [repo is here](https://github.com/elmoren/AdventOfCode2025) if you're interested. I may write a post on Gleam eventually. It's a fun little language! 
 

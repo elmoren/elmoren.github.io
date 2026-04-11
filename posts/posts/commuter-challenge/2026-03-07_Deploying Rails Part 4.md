@@ -5,7 +5,7 @@ date: 2026-03-07
 ---
 # {{ $frontmatter.title }}
 
-This is Part 4 of the Deploying Rails to AWS series. Here is the [Part 3](2026-02-22_Deploying%20Rails%20Part%203.md) or if you need to start at the beginning, here is [Part 1](2025-09-13_Deploying%20Rails%20Part%201.md).
+This is Part 4 of the Deploying Rails to AWS series. Here is [Part 3](2026-02-22_Deploying%20Rails%20Part%203.md) or if you need to start at the beginning, here is [Part 1](2025-09-13_Deploying%20Rails%20Part%201.md).
 
 Next steps is to test ECS to learn it and see if it will work for the Commuter Challenge. I am going to start simple and run a simple NGINX container before I worry about all the configurations for the Commuter Challenge. I want to get a feel for how it works and what the deployment process looks like.
 

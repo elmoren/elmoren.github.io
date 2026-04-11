@@ -12,16 +12,11 @@ This app started during Covid with my wife who organizes the Billings Commuter C
 
 Since this project started, we have 400+ commuters who have cumulatively logged thousands of trips and over 10,000 miles.
 
-## The Tech Stack
+## The New Tech Stack
 
 - [Ruby](https://www.ruby-lang.org/en/) & [Ruby on Rails](https://rubyonrails.org/) - I had some friends in college who were Ruby enthusiasts and I always wanted to try it on more than just a surface level. I may have been a little late on the hype but Ruby and Rails is proven and reliable.
-- [Nginx](https://nginx.org/en/) w/[Passenger](https://www.phusionpassenger.com/)
-- [Capistrano](https://capistranorb.com/) - Automated deployment with a single terminal command
-- [PostgreSQL](https://www.postgresql.org/) - My favorite free SQL based RDBMS
-- [Bulma CSS Framework](https://bulma.io/) - At the time I wanted to minimize the JS in the front end as much as possible. Bulma fit that perfectly.
-- Deployed on a [DigitalOcean](https://www.digitalocean.com/) droplet
+- Deployed on AWS with and EC2 instance running Docker and S3
+- [kamal](https://kamal-deploy.org) - Automated deployment with a single terminal command
+- [PostgreSQL](https://www.postgresql.org/) - My favorite SQL RDBMS
+- [Bulma CSS Framework](https://bulma.io/) - When I started I wanted to minimize the JS in the front end as much as possible. Bulma fit that perfectly.
 - Password recovery email through [Postmark](https://postmarkapp.com/)
-
-## Ongoing Work
-
-I am currently taking a few of Adrian Cantrill's AWS courses with the goal of getting some certs and converting the Billings Commuter Challenge to AWS. I'll be posting my progress on this site regularly if you're interested in following along.

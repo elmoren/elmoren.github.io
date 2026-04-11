@@ -5,7 +5,7 @@ date: 2026-03-11
 ---
 # {{ $frontmatter.title }}
 
-This is Part 5 of the Deploying Rails to AWS series. Here is the [Part 4](2026-03-07_Deploying%20Rails%20Part%204.md) or you can start at the beginning, here is [Part 1](2025-09-13_Deploying%20Rails%20Part%201.md).
+This is Part 5 of the Deploying Rails to AWS series. Here is [Part 4](2026-03-07_Deploying%20Rails%20Part%204.md) or you can start at the beginning, here is [Part 1](2025-09-13_Deploying%20Rails%20Part%201.md).
 
 Today I want to deploy the Commuter Challenge with [Kamal](https://kamal-deploy.org). Kamal is a deployment tool that simplifies deploying containerized applications. You just set up some config files and run a few commands, and Kamal does the rest. It feels like Capistrano, but for containerized deployments.
 
