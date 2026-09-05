@@ -6,7 +6,8 @@ title: Résumé
 
 ## Summary
 
-Results-driven full-stack software engineer with 12 years of experience and a history of delivering impactful solutions for customers. Dedicated to continuous learning and improving how we work as software engineers.
+Senior software engineer with 14 years of experience designing, developing, modernizing, and operating production software. Experienced leading feature teams, modernizing legacy applications, building developer tooling, and delivering systems at large operational scale. Track record of reducing costs, eliminating manual processes, and improving engineering productivity.
+
 ## Work Experience
 
 ### PAI, A Brink's Company
@@ -18,21 +19,25 @@ Billings, MT
 
 January 2023 to Present
 
-- Manage a feature team that delivers new features and products, maintains legacy code, performs DevOps, and improves the developer tooling for a network of over 100,000 ATMs nationwide.
-- Proposed and led an effort to improve the front-end developer experience by transitioning our monolithic architecture to a Vite based monorepo. This results in instant feedback instead of 60-second cycles, improved linting, easier testing, and an upgrade path for legacy user interfaces.
-- Led a project to integrate existing processes with new wireless provider that reduced monthly data usage costs by approximately $30,000 per month. Developed tools that save the wireless team hours of time each week and created dashboards that provide insights for better decision making.
-- Created an Incident Retrospective process for the development team to reflect on high severity incidents. This leads to actionable plans for effective responses and helps prevent future incidents.
+- Lead a feature team supporting a network of 100,000+ ATMs, leading new product development, legacy modernization, DevOps, and developer tooling.
+- Modernized a monolithic front-end into a Vite based monorepo, reducing developer feedback cycles from 60 seconds to essentially instant while improving linting, testing, onboarding, and the upgrade path for legacy UIs.
+- Reduced wireless data usage costs by tens of thousands of dollars monthly. Led a project to integrate existing processes with a new wireless provider and developed tools that save the wireless team hours each week and created dashboards that provide insights for data driven decision making.
+- Created an Incident Retrospective process for the product engineering team to analyze high-severity incidents and identify actionable improvements to incident response and prevention.
+- Designed and implemented an end-to-end invoicing system for project and technician services, integrating contract variations, review workflows, reporting dashboards, and ERP systems.
 - Java | JavaScript | TypeScript | Vue | Vite | T-SQL | SQL Server | Docker | Linux | Git
+
 ---
 
 #### Software Engineer, L2
 
 November 2020 to December 2023
 
-- Coordinated three departments and a vendor to create a wireless device inventory management system that streamlines the entire process from the device being manufactured in China to deployment in the field. This saves the wireless, operations, and accounting teams hundreds of hours monthly.
-- Built a process to resolve ATM disputes that saves months of person-hours each year and tens of thousands of dollars in technician dispatches and unresolved disputes each month.
-- Created a flexible ETL library that standardized our process for file based data feeds. This significantly reduced development time for new feeds, simplifying monitoring and deployment.
-- Java | JavaScript | TypeScript | Vue | T-SQL | SQL Server | Docker | Linux | Mercurial
+- Architected and implemented an end-to-end wireless inventory automation system spanning purchasing, manufacturing, shipping, activation, warehousing, ERP integration, web store, and customer fulfillment. Automated device lifecycle tracking from purchase order through customer fulfillment, including inventory synchronization and drop shipping workflows, eliminating manual warehouse processing for thousands of devices annually.
+- Implemented and scaled a system that imports, processes, and resolves ATM disputes, eliminating months of person-hours of work each year, and saving tens of thousands of dollars in technician dispatches and unresolved ATM disputes each month.
+- Created an ETL pipeline in Java that simplified and standardized a process for creating new file based data feeds. These tools significantly reduce development time for new data feeds, and simplify operations and deployment.
+- Developed a feature that prevents thousands of technician dispatches to ATMs and technical support calls annually by remotely configuring ATMs and automatically identifying and repairing misconfigurations.
+- Freed hundreds of GB of storage on our primary SQL Server production database with an automated process for archiving old transaction data while meeting data retention requirements for compliance.
+- Reduced support calls and manual data entry with reporting tools and a service that tracks issued checks and imports them into our ERP system.
 
 ---
 
@@ -45,19 +50,15 @@ January 2012 to November 2020
 
 January 2012 to November 2020
 
-- Collaboratively built a Multi-Aspect Radar System (MARS) with a small team of engineers working on all aspects of system development, including system and software design, hardware configuration, calibration, Linux server administration, in-lab integration and testing, and field testing.
+- Developed embedded and systems software for defense radar systems, working across software, hardware, Linux administration, integration, and field testing.
+- Collaboratively built a Multi-Aspect Radar System (MARS) with a small team of engineers working on all aspects of system development, including requirements determination, system and software design, hardware configuration, calibration, Linux server administration, in-lab integration and testing, and field testing.
+- Developed, tested, and debugged software components for the following: radar scheduling, ADC/DAC boards, Digital I/O, frequency synthesizers, Automatic Identification System (AIS), and other hardware interfaces.
+- Modified the MARS software and hardware to operate as a multi-channel digitizer with real-time data recording and export over 10 Gb Ethernet on an airborne platform (ADAS).
+- Implemented DISA Security Technical Implementation Guides (STIGs) for the MARS and ADAS Red Hat operating systems.
 - Wrote hardware and software specification documents for the AN/SPS-73(V)18 surface search radar.
-- Performed requirements analysis and wrote design verification tests and factory qualification tests for the AN/SPS-73(V)18 surface search radar.
-- C/C++ | Perl | Bash | Python | Linux | Subversion
+- Performed requirements analysis, wrote design verification tests and factory qualification tests for the AN/SPS-73(V)18 surface search radar.
 
 ---
-
-#### Software Engineer - Internship
-
-May 2011 to August 2011
-
-- Developed a prototype GIS web application for displaying and searching real estate information using Linux, Apache, PostgreSQL, PHP, GeoServer and OpenLayers.
-- Designed a geospatial database and queries with PostgreSQL and PostGIS.
 
 ## Education
 
@@ -69,19 +70,12 @@ University of Montana - Missoula, MT \
 Rocky Mountain College - Billings, MT \
 2006 to 2010
 
-## Skills
+## Core Technologies
 
-#### Languages & Frameworks
+####
 
-- **Proficient**: Java, JavaScript, TypeScript, Vue.js, Vite, CSS, Sass, HTML5, SQL, C, Perl
-- **Familiar**: Ruby, Bash, Rails, Webpack
+Java | JavaScript | TypeScript | Vue | Vite | T-SQL | Linux | Databases | Perl | Docker | C | AWS
 
-#### Databases
+#### Certifications
 
-- **Proficient**: SQL Server
-- **Familiar**: MySQL, PostgreSQL
-
-#### Other
-
-- **Proficient**: Linux, Tomcat, CI/CD, Mercurial, Subversion
-- **Familiar**: Docker, Git, NGINX, Nagios
+AWS Certified Solutions Architect – Associate
