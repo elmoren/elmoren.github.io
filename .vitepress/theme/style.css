@@ -44,10 +44,22 @@
  * -------------------------------------------------------------------------- */
 
  :root {
-  --nje-blue-1: #6384b7;
-  --nje-blue-2: #3a557d;
-  --nje-blue-3: #5d79a1;
-  --nje-blue-soft: rgba(99, 132, 183, 0.17);
+  --nje-blue-1: #2f5a94;   /* links: 6.97:1 on white */
+  --nje-blue-2: #24497a;   /* hover */
+  --nje-blue-3: #3d6aa8;   /* button bg: 5.49:1 with white text */
+  --nje-blue-soft: rgba(61, 106, 168, 0.14);
+  --nje-leather: #a0522d;  /* accent: 5.62:1 on white */
+}
+
+.dark {
+  --nje-blue-1: #8fb1e3;   /* links: 7.82:1 on dark bg */
+  --nje-blue-2: #a8c4ec;
+  --nje-blue-3: #3d6aa8;
+  --nje-blue-soft: rgba(143, 177, 227, 0.16);
+  --nje-leather: #d9965b;  /* 6.92:1 on dark bg */
+}
+
+:root {
 
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
@@ -97,12 +109,17 @@
 
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(
+  --vp-home-hero-name-background: linear-gradient(
     120deg,
-    var(--nje-blue-1),
-    var(--nje-blue-2)
+    var(--nje-blue-1) 30%,
+    var(--nje-leather)
   );
-  
+
+  --vp-home-hero-image-background: linear-gradient(
+    -45deg,
+    var(--nje-blue-3) 50%,
+    var(--nje-leather) 50%
+  );
   --vp-home-hero-image-filter: blur(44px);
 }
 

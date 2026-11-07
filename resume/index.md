@@ -10,7 +10,7 @@ Senior software engineer with 14 years of experience designing, developing, mode
 
 ## Work Experience
 
-### PAI, A Brink's Company
+### Brink's
 
 November 2020 to Present \
 Billings, MT
