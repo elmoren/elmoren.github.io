@@ -15,8 +15,11 @@ export interface Post {
 export default function findPosts(folderpath: string): Post[] {
     return fs
         .readdirSync(folderpath, {recursive: true})
+        .filter(fileName => fileName.endsWith('.md') && isFile(path.join(folderpath, fileName)))
         .map(fileName => {
-            let parts = fileName.split(/[_\.]/);
+            // Parse the file name only, so posts in subfolders (e.g. commuter-challenge/)
+            // sort by their date instead of by their folder name.
+            let parts = path.basename(fileName).split(/[_\.]/);
             return {
                 date: parts[0],
                 text: `${parts[parts.length - 2]}`,
@@ -25,7 +28,5 @@ export default function findPosts(folderpath: string): Post[] {
             }
         })
         .sort((a, b) => b.date.localeCompare(a.date))
-        .filter(e => isFile(e.path))
         .slice(0, 10);
 }
-
