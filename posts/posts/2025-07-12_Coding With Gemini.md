@@ -1,6 +1,6 @@
 ---
 title: I Paired with Gemini and This is What I Learned
-group: Pairing With Gemini
+group: Generative AI
 date: 2025-07-12
 ---
 
@@ -104,4 +104,5 @@ Here's a list of the cons and struggles I came across in no particular order.
 - It adds an abundance of useless comments
 - It struggled with changing grid to column order and dealing with overflow. I'm sure this is partly because of my prompts.
 
-This was a brand new project. Are AI agents capable enough to find a project's helper libraries, toolkits, and reusable CSS classes that already exist in the code or will they constantly recreate them (and therefore introducing entropy)? Either way, I am excited to continue exploring what these tools can do.
+This was a brand-new project. Are AI agents capable enough to find a project's helper libraries, toolkits, and 
+reusable CSS classes that already exist in the code or will they constantly recreate them (and therefore introducing entropy)? Either way, I am excited to continue exploring what these tools can do.
